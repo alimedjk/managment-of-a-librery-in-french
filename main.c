@@ -18,7 +18,7 @@ typedef struct
 typedef file Telm;
 
 
-//déclaration de la File
+//dÃ©claration de la File
 typedef struct Element* EFile;
 typedef struct Element { Telm  Val; EFile Suiv} CelluleF;
 typedef struct {EFile Tete,Queue;} File;
@@ -272,7 +272,7 @@ else{
       else printf("ouvrage inexistant dans la bibliotheque");
 }
 else
-    printf("pas d'ouvrages dans la bibliothèque\n");
+    printf("pas d'ouvrages dans la bibliothÃ¨que\n");
 }
 //disponibilite ouvrage
 void dispoouvrage(ouvrages l,int x)
@@ -417,7 +417,7 @@ else{  printf("etudiant non inscrit a la biliotheque\n");}
 }
 else
 {
- printf("pas d'etudiant inscrit a la bibliothèque\n");
+ printf("pas d'etudiant inscrit a la bibliothÃ¨que\n");
 }
 }
 //consulter etudiant
@@ -692,7 +692,7 @@ else{  printf("emprunt inexistant a la biliotheque\n");}
 }
 else
 {
- printf("pas d'etudiant inscrit a la bibliothèque\n");
+ printf("pas d'etudiant inscrit a la bibliothÃ¨que\n");
 }
 }
 //returner emprunt
